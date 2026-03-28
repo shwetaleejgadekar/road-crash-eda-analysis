@@ -9,14 +9,19 @@ An end-to-end data analysis project on the Montgomery County Crash Reporting Dri
 
 # Project Structure
 - Data Cleaning & Preprocessing
+
   Handled missing values by filling nulls with 'UNKNOWN', standardized text to uppercase for consistency, and converted the Crash Date/Time column to datetime format to enable time-based analysis.
 - Exploratory Data Analysis
+
   Analyzed 39 features across crash records to surface patterns in collision types, driver behavior, road conditions, and injury severity through statistical summaries and visual distributions.
 - KMeans Clustering for pattern identification
+
   Applied KMeans clustering on weather, surface, and lighting conditions to group crash scenarios and identify that 50% of crashes cluster around conditions typically considered safe — clear weather, dry roads, and daylight.
 - Interactive visualizations (Plotly)
+
   Built interactive charts using Plotly to allow dynamic exploration of crash distributions across weather conditions, collision types, fault rates, and traffic control presence.
 - Managerial Insights per finding
+
   Translated each analytical finding into actionable policy recommendations, such as dynamic speed limits based on real-time conditions, ADAS adoption incentives, and replacing traditional intersections with roundabouts.
 
 
